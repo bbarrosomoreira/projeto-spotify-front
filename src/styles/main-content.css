@@ -92,3 +92,24 @@
   font-weight: 700;
   border-radius: 40px;
 }
+
+.main-content {
+  border-radius: 8px;
+  background-color: #121212;
+  color: #fff;
+  height: 100vh;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main-content__textos h2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.main-content__textos p {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 30px;
+}
