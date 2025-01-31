@@ -93,23 +93,27 @@
   border-radius: 40px;
 }
 
-.main-content {
-  border-radius: 8px;
+.playlist-container {
+  height: 68vh;
+  padding-top: 16px;
+  margin: 10px;
+  border-radius: 10px;
   background-color: #121212;
+}
+
+.playlist {
+  margin: 24px;
+}
+
+.playlist #greeting {
   color: #fff;
-  height: 100vh;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.main-content__textos h2 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bold;
-  padding: 30px;
+  margin-bottom: 48px;
 }
 
-.main-content__textos p {
+.playlist .greeting-subtitle {
+  color: #fff;
   font-size: 24px;
   font-weight: bold;
-  padding: 30px;
 }
